@@ -104,3 +104,26 @@ i {
   width: 1em;
   left: 1em;
 }
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  main {
+    width: 40vh;
+    margin-left: -20vh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  main {
+    width: 25vh;
+    margin-left: -12.5vh;
+    padding: 0.5em;
+  }
+
+  h2 {
+    font-size: 0.9em;
+  }
+
+  footer p {
+    font-size: 0.9em;
+  }
+}
